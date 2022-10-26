@@ -1,0 +1,306 @@
+body,
+html {
+    margin: 0;
+    font-family: Montserrat-VariableFont;
+    overflow-x: hidden;
+}
+
+#header {
+    width: 100%;
+    height: 7%;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(214, 214, 214));
+    position: fixed;
+    box-shadow: 2px 2px 20px black;
+    z-index: 999;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+@font-face {
+    font-family: "Montserrat-VariableFont";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+hr {
+    height: 2px;
+    margin-top: 40px;
+    background-color: #cecece;
+    border: 0;
+    z-index: 99;
+}
+
+.gradient {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(153, 152, 153));
+}
+.gradient:hover {
+    background-image: linear-gradient(to right, rgb(185, 129, 185), rgb(0, 0, 0));
+    transition-delay: 0.5s;
+}
+footer {
+    height: 170px;
+    background-image: linear-gradient(to right, rgb(17, 17, 17), rgb(44, 44, 44));
+}
+.logo:hover{
+    transition: 0.5s;
+    transform: scale(1.1);  
+}
+.logo2:hover{
+  transition: 0.5s;
+  transform: scale(1.01);
+}
+.vhod{
+  background-color: white;
+  border: 3px solid #f1f1f1;
+  padding: 16px;
+  padding-left:480px ;
+  height: 520px;
+}
+input[type=text], input[type=password] {
+  width: 45%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.vse{
+    height: 440px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: #ffffff;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 50px;
+    align-items: center;
+}
+.vse2{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  background-color: #ffffff;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-left: 50px;
+  align-items: center;
+}
+.tovar{
+    width: 220px;
+    height: 350px;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    opacity: 1;
+}
+.tovar2{
+  width: 280px;
+  height: 350px;
+  padding: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  opacity: 1;
+}
+.tovar:hover img {
+    transition: 0.5s;
+    transform: scale(1.1);
+    opacity: 1.2;
+}
+.vse1{
+    height: 440px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: #ffffff;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+.tovar1{
+    width: 220px;
+    height: 350px;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    opacity: 1;
+}
+.tovar1:hover img {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.kont{
+    width: 90%;
+    height: 530px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.net{
+  background: #222;
+    color: #fff;
+    border-radius: 2px;
+    position: relative;
+    right: 0;
+    bottom: 220px;
+    font-size: 12px;
+    padding: 3px 5px;
+    left: 50px;
+}
+.net1{
+  background: rgb(87, 87, 87);
+    color: #fff;
+    border-radius: 2px;
+    position: relative;
+    right: 0;
+    bottom: 220px;
+    font-size: 12px;
+    padding: 3px 5px;
+    left: -80px;
+}
+.cena{
+  width: 570px;
+  height: 320px;
+  box-shadow: 1px 1px 12px 1px rgb(202, 202, 202);
+  border-radius: 10px;
+  margin: 20px;
+}
+.cena11{
+  width: 100%;
+  height: 100px;
+  margin-left: 0px;
+}
+.cena111{
+  width: 100px;
+  height: 75px;
+  box-shadow: 1px 1px 12px 1px rgb(202, 202, 202);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 7px;
+}
+.tovari{
+  width: 1230px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 12px 1px rgb(172, 172, 172);
+}
+.custom-btn {
+    font-family: Montserrat-VariableFont;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    margin-right: 90px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-8 {
+    background-color: #f0ecfc;
+    background-image: linear-gradient(315deg, #a0a0a0 0%, #292929 74%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-8 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-8:before,
+  .btn-8:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #2e2e2e;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    transition: all 0.3s ease;
+  }
+  .btn-8:before{
+     height: 0%;
+     width: 2px;
+  }
+  .btn-8:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-8:hover:before {
+    height: 100%;
+  }
+  .btn-8:hover:after {
+    width: 100%;
+  }
+  .btn-8:hover{
+    background: transparent;
+  }
+  .btn-8 span:hover{
+    color: #000000;
+  }
+  .btn-8 span:before,
+  .btn-8 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #5f5f5f;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    transition: all 0.3s ease;
+  }
+  .btn-8 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-8 span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-8 span:hover:before {
+    height: 100%;
+  }
+  .btn-8 span:hover:after {
+    width: 100%;
+  }
+  @media screen and (min-width: 1920px) {
+.logo{
+  width: 120px;
+}
+  }
